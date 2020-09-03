@@ -80,11 +80,12 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 10vh;
+    height: 20vh;
   }
   
   .buttonC {
     margin-top: 3%;
+    margin-bottom: 4%;
   }
 
   p {
@@ -111,3 +112,18 @@
     width: 30%;
   }
 
+  li a {
+    font-size: 15px;
+    color: pink;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    border: 2px solid pink;
+  }
+
+  .container-bottom a {
+    margin-bottom: 5%;
+    padding: 2%;
+  }
