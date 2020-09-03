@@ -1,0 +1,21 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    }
+
+h1, p {
+    color: white;
+}
+
+img {
+    height: 70vh;
+    width: 60vw;
+}
+
+.SSS {
+    width: 80vw;
+}
+
+.SIXR {
+    height: 80vh;
+}

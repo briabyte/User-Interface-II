@@ -7,12 +7,14 @@
     font-size: 50px;
     color: white;
     background-color: transparent;
+    text-shadow: 5px white;
   }
   
   button {
     color: white;
     background-color: black;
     border-radius: 5px;
+    font-size: 16px;
     height: 35px;
     width: 150px;
     border: 0px;
@@ -65,11 +67,11 @@
   }
   
   .images .images1 {
-    width: 30%;
+    width: 95%;
     height: 300px;
     padding: 5px;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 0;
     border: 5px solid white;
   }
   
@@ -91,17 +93,21 @@
     justify-content: center;
     margin-top: 5%;
     text-decoration-line: underline;
+    font-weight: bold;
   }
 
   .images p {
     font-size: 16px;
     text-decoration: none;
-    margin: 0;
+    width: 30%;
+    margin-left: 35%;
     padding: 0;
+    font-weight: normal;
   }
 
   div .I1 {
     display: inline-block;
     text-align: center;
+    width: 30%;
   }
 
