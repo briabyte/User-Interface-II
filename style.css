@@ -112,18 +112,26 @@
     width: 30%;
   }
 
-  li a {
-    font-size: 15px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .container-bottom ul {
+    width: 100%;
+    background-color: white;
+  }
+
+  ul a {
+    font-size: 14px;
     color: pink;
     text-decoration: none;
     background-color: white;
-    display: flex;
-    flex-direction: row;
-    width: 200px;
+    width: 75%;
+    padding: 8%;
+    margin: 2%;
     border: 2px solid pink;
-  }
-
-  .container-bottom a {
-    margin-bottom: 5%;
-    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
   }
