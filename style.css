@@ -83,9 +83,6 @@
     background-color: white;
     height: 20vh;
   }
-  
-  .buttonC {
-  }
 
   p {
     font-size: 3rem;
@@ -151,16 +148,21 @@
 
   }
 
-  @media (max-width: 495px) {
+  @media (max-width: 500px) {
     header {
       flex-direction: column;
       margin: 2%;
       width: 100%;
     }
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
     nav {
-      justify-content: flex-start;
+      display: flex;
+      justify-content: center;
       align-items: center;
-      margin-top: 0;
+      margin-bottom: 6%;
     }
     section {
       margin-top: 4%;
